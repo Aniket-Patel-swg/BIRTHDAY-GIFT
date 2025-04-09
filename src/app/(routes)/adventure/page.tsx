@@ -30,7 +30,7 @@ export default function Adventure() {
                 { text: "\"The Nights\" – Avicii", isCorrect: true },
                 { text: "\"A Thousand Years\" – Christina Perri", isCorrect: false }
             ],
-            hint: "It comes in a box, but holds more than just a gift — it'll make you more gorgeous. 💫"
+            hint: "It comes in a box, but holds more than just a gift — it&apos;ll make you more gorgeous. 💫"
         },
         {
             text: "Which shirt did I wear when we had I know you know?",
@@ -79,7 +79,7 @@ export default function Adventure() {
 
                 <div className={styles.welcome}>
                     <p>Hey Cutieeeeeeeeee!</p>
-                    <p>Every treasure is linked to a memory. Let's see how well you remember our moments…</p>
+                    <p>Every treasure is linked to a memory. Let&apos;s see how well you remember our moments…</p>
                     <div className={styles.envelope}>🔍</div>
                 </div>
 
@@ -126,7 +126,7 @@ export default function Adventure() {
                                     </>
                                 ) : (
                                     <>
-                                        <h3>That's not quite right!</h3>
+                                        <h3>That&apos;s not quite right!</h3>
                                         <p>Try again to unlock your special hint.</p>
                                         <button
                                             className={styles.button}
@@ -141,7 +141,7 @@ export default function Adventure() {
                     </div>
                 ) : (
                     <div className={styles.allHintsContainer}>
-                        <h2>🎊 You've Unlocked All Your Treasure Hints! 🎊</h2>
+                        <h2>🎊 You&apos;ve Unlocked All Your Treasure Hints! 🎊</h2>
 
                         <div className={styles.allHints}>
                             <div className={styles.hintCard}>
@@ -161,7 +161,7 @@ export default function Adventure() {
                         </div>
 
                         <div className={styles.treasureMessage}>
-                            <p>Now that you have all the clues, it's time to find your birthday treasures!</p>
+                            <p>Now that you have all the clues, it&apos;s time to find your birthday treasures!</p>
                             <p>Each hint leads to a special gift hidden just for you. Happy hunting!</p>
                             <p>First one might be somewhere near your pillow... 😉</p>
                         </div>

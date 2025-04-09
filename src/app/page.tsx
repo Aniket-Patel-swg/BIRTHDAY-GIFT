@@ -16,7 +16,7 @@ export default function Home() {
 
   useEffect(() => {
     // Set the target date - April 10th, 2025 at midnight
-    const targetDate = new Date("April 9, 2025 00:00:00").getTime();
+    const targetDate = new Date("April 10, 2025 00:00:00").getTime();
 
     const updateTimer = () => {
       const now = new Date().getTime();
@@ -54,7 +54,7 @@ export default function Home() {
   };
 
   const handlePhotoGallery = () => {
-    alert("I'm working to make this precious collection. Still working on it!");
+    alert("I&apos;m working to make this precious collection. Still working on it!");
   };
 
   if (!isTime) {
@@ -84,13 +84,13 @@ export default function Home() {
 
           <p className={styles.description}>
             Today marks another beautiful year in your amazing journey.
-            You fill every day with joy and kindness, and I'm so grateful
+            You fill every day with joy and kindness, and I&apos;m so grateful
             to have you in my life. May this year bring you all the happiness,
             success, and adventure you deserve!
           </p>
 
           <p className={styles.description}>
-            I've planned something special just for you - a multi-day adventure
+            I&apos;ve planned something special just for you - a multi-day adventure
             of surprises and gifts to celebrate how wonderful you are.
             Each day holds a new treasure to discover!
           </p>
