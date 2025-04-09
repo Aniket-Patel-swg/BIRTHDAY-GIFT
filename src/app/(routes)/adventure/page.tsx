@@ -163,7 +163,6 @@ export default function Adventure() {
                         <div className={styles.treasureMessage}>
                             <p>Now that you have all the clues, it&apos;s time to find your birthday treasures!</p>
                             <p>Each hint leads to a special gift hidden just for you. Happy hunting!</p>
-                            <p>First one might be somewhere near your pillow... 😉</p>
                         </div>
 
                         <Link href="/">
