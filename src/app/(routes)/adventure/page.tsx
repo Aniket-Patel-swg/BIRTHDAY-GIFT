@@ -114,7 +114,7 @@ export default function Adventure() {
                                     <>
                                         <h3>✨ You got it right! ✨</h3>
                                         <div className={styles.hintContainer}>
-                                            <h4>Treasure Hint {currentQuestion + 1}:</h4>
+                                            <h4>1st Gift Hint {currentQuestion + 1}:</h4>
                                             <p className={styles.hintText}>{questions[currentQuestion].hint}</p>
                                             <button
                                                 className={styles.button}
